@@ -1,1 +1,3 @@
-//Placeholder
+$(document).ready(function() {
+	
+});
