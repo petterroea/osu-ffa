@@ -1,0 +1,5 @@
+.streamArea {
+	width: 1280px;
+	height: 720px;
+	background-color: rgb(255, 0, 255); /* Ajust to your own chroma key color for streams */
+}
