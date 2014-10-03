@@ -7,6 +7,8 @@ $(document).ready(function() {
 });
 function fetchMatchData() {
 	$.getJSON(API_ENDPOINT + "get_match?k=" + API_KEY + "&mp=" + MATCH_ID, function(data) {
-
+		var match_data = data[0].match;
+		console.log("Got match: " + match_data.name);
+		$("#matchNameSpan").html = "<b>Match name: " + match_data.name + "</b>";
 	});
 }
